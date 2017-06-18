@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import {InstantSearch, Hits, SearchBox, Highlight, RefinementList, CurrentRefinements, ClearAll} from 'react-instantsearch/dom';
+import {InstantSearch, Hits, SearchBox, Highlight, RefinementList, CurrentRefinements, ClearAll, PoweredBy} from 'react-instantsearch/dom';
 
 function Search() {
   return (
@@ -12,17 +12,25 @@ function Search() {
       <SearchBox />
       <RefinementList attributeName="category" />
       <Hits hitComponent={Product} />
+      <PoweredBy />
     </div>
   );
 };
 
 function Product({hit}) {
   return (
-    <div style={{marginTop: '10px'}}>
+    <a href={hit.url} className="card" target="_blank">
+      <img src={"http://logo.clearbit.com/" + hit.url} />
       <span className="hit-name">
         <Highlight attributeName="name" hit={hit} />
       </span>
-    </div>
+      <span className="hit-shipping_free">
+        {hit.shipping_free} shipping
+      </span>
+      <span className="hit-free_ship_min">
+        Free shipping on orders over {hit.free_ship_min}.
+      </span>
+    </a>
   );
 };
 
