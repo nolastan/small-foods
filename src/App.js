@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import {InstantSearch, Hits, SearchBox, Highlight, RefinementList, CurrentRefinements, ClearAll, PoweredBy} from 'react-instantsearch/dom';
+import {InstantSearch, Hits, SearchBox, Highlight, RefinementList,
+  CurrentRefinements, ClearAll, PoweredBy, Configure}
+  from 'react-instantsearch/dom';
 
 function Search() {
   return (
@@ -17,19 +19,30 @@ function Search() {
   );
 };
 
+function freeShippingStyle(amount){
+  if (amount == "$0") {
+    return "shipping-fee free-shipping"
+  } else {
+    return "shipping-fee"
+  }
+}
+
 function Product({hit}) {
+
   return (
     <a href={hit.url} className="card" target="_blank">
       <img src={"http://logo.clearbit.com/" + hit.url} />
-      <span className="hit-name">
-        <Highlight attributeName="name" hit={hit} />
-      </span>
-      <span className="hit-shipping_free">
-        {hit.shipping_free} shipping
-      </span>
-      <span className="hit-free_ship_min">
-        Free shipping on orders over {hit.free_ship_min}.
-      </span>
+      <div className="details">
+        <h3>
+          <Highlight attributeName="name" hit={hit} />
+        </h3>
+        <div className={ freeShippingStyle(hit.shipping_fee) }>
+          ${hit.shipping_fee} shipping
+        </div>
+        <div>
+          Free shipping on orders over ${hit.free_ship_min}.
+        </div>
+      </div>
     </a>
   );
 };
@@ -41,6 +54,7 @@ const App = () =>
     indexName="brands"
   >
     <Search/>
+    <Configure hitsPerPage={500} />
   </InstantSearch>
 
 export default App;

@@ -1,24 +1,54 @@
-.App {
-  text-align: center;
+.container {
+  margin: 0 auto;
+  max-width: 720px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.card {
+  display: block;
+  background: #FEFEFE;
+  margin: 1rem;
+  border: 1px solid #DDD;
+  display: flex;
+  height: 140px;
+  position: relative;
+  color: #333;
+  text-decoration: none;
+  border-radius: 2px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.card:hover {
+  background: #FFF;
+  border: 1px solid #CCC;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.02);
+}
+
+.card .shipping-fee {
+  display: inline-block;
+  font-size: 75%;
+  border-radius: 50px;
+  padding: 0.5ex 1em;
+  border: 1px solid #DDD;
+  margin: 1ex 0;
+  vertical-align: middle;
+  margin-left: 0.5em;
+}
+
+.card .shipping-fee.free-shipping {
+  background: green;
   color: white;
+  border: none;
 }
 
-.App-intro {
-  font-size: large;
+.card img {
+  flex: 0 0 140px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.card .details {
+  padding: 1ex 1em;
+}
+
+h3 {
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
 }

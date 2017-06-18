@@ -2,14 +2,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: #FEFEFE;
-}
-
-.card {
-  display: block;
-  background: #FFF;
-  border: 1px solid #FAFAFA;
-  margin: 16px;
-  padding: 16px;
-  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  background: #FAFAFA;
+  line-height: 1.5;
 }
