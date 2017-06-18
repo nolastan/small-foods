@@ -3,14 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 
 import {InstantSearch, Hits, SearchBox, Highlight, RefinementList,
-  CurrentRefinements, ClearAll, PoweredBy, Configure}
+  CurrentRefinements, PoweredBy, Configure}
   from 'react-instantsearch/dom';
 
 function Search() {
   return (
     <div className="container">
       <CurrentRefinements/>
-      <ClearAll/>
       <SearchBox />
       <RefinementList attributeName="category" />
       <Hits hitComponent={Product} />

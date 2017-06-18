@@ -30,7 +30,6 @@
   border: 1px solid #DDD;
   margin: 1ex 0;
   vertical-align: middle;
-  margin-left: 0.5em;
 }
 
 .card .shipping-fee.free-shipping {
@@ -48,7 +47,26 @@
 }
 
 h3 {
-  margin: 0;
+  margin: 0 0.5em 0 0;
   display: inline-block;
   vertical-align: middle;
+}
+
+
+.ais-SearchBox__root {
+  margin: 1rem;
+  display: block;
+  max-width: none;
+  width: auto;
+}
+
+.ais-SearchBox__wrapper input {
+  box-shadow: none;
+  border-radius: 2px;
+  border: 1px solid #aaa;
+}
+
+.ais-PoweredBy__root {
+  margin: 0 1rem 2ex;
+  float: right;
 }
