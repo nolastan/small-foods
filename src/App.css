@@ -9,7 +9,7 @@
   margin: 1rem;
   border: 1px solid #DDD;
   display: flex;
-  height: 140px;
+  min-height: 140px;
   position: relative;
   color: #333;
   text-decoration: none;
@@ -69,4 +69,7 @@ h3 {
 .ais-PoweredBy__root {
   margin: 0 1rem 2ex;
   float: right;
+}
+.ais-SearchBox__wrapper {
+  font-size: 20px;
 }
