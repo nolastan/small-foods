@@ -47,9 +47,11 @@ class FreeShipping extends React.Component {
   render() {
     if(this.props.amount) {
       return (
-        <div>
-          Free shipping on orders over ${this.props.amount}.
-        </div>
+        <p>
+          <small>
+            Free shipping on orders over ${this.props.amount}.
+          </small>
+        </p>
       )
     } else {
       return <div />
@@ -68,6 +70,7 @@ function Product({hit}) {
           <Highlight attributeName="name" hit={hit} />
         </h3>
         <ShippingFee amount={hit.shipping_fee} />
+        <p>{hit.description}</p>
         <FreeShipping amount={hit.free_ship_min} />
       </div>
     </a>

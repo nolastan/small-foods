@@ -52,6 +52,8 @@ h3 {
   vertical-align: middle;
 }
 
+p { margin: 0; }
+
 
 .ais-SearchBox__root {
   margin: 1rem;
