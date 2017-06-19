@@ -2,7 +2,7 @@
   "name": "small-foods",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nolastan.github.io/small-foods",
+  "homepage": "http://trykangaroo.com",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
