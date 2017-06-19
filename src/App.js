@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import {InstantSearch, Hits, SearchBox, Highlight, RefinementList,
-  CurrentRefinements, PoweredBy, Configure}
+  CurrentRefinements, ClearAll, PoweredBy, Configure}
   from 'react-instantsearch/dom';
 
 function Search() {
@@ -18,13 +18,45 @@ function Search() {
   );
 };
 
-function freeShippingStyle(amount){
-  if (amount == "$0") {
-    return "shipping-fee free-shipping"
-  } else {
-    return "shipping-fee"
-  }
+
+class ShippingFee extends React.Component {
+
+  freeShippingStyle() {
+    if (this.props.amount == "0") {
+      return "shipping-fee free-shipping"
+    } else {
+      return "shipping-fee"
+    }
+  };
+
+  render() {
+    if(this.props.amount) {
+      return (
+        <div className={ this.freeShippingStyle() }>
+          <div>${this.props.amount} shipping</div>
+        </div>
+      )
+    } else {
+      return <div />
+    }
+  };
 }
+
+class FreeShipping extends React.Component {
+
+  render() {
+    if(this.props.amount) {
+      return (
+        <div>
+          Free shipping on orders over ${this.props.amount}.
+        </div>
+      )
+    } else {
+      return <div />
+    }
+  };
+}
+
 
 function Product({hit}) {
 
@@ -35,12 +67,8 @@ function Product({hit}) {
         <h3>
           <Highlight attributeName="name" hit={hit} />
         </h3>
-        <div className={ freeShippingStyle(hit.shipping_fee) }>
-          ${hit.shipping_fee} shipping
-        </div>
-        <div>
-          Free shipping on orders over ${hit.free_ship_min}.
-        </div>
+        <ShippingFee amount={hit.shipping_fee} />
+        <FreeShipping amount={hit.free_ship_min} />
       </div>
     </a>
   );
