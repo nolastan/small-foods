@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import bcorp_logo from './b-corp.png';
 import './App.css';
 
 import {InstantSearch, Hits, SearchBox, Highlight, RefinementList,
@@ -42,6 +42,19 @@ class ShippingFee extends React.Component {
   };
 }
 
+class BCorp extends React.Component {
+
+  render() {
+    if(this.props.bcorp) {
+      return (
+        <img className="bcorp" src={bcorp_logo} alt="B-Corp" />
+      )
+    } else {
+      return <div />
+    }
+  };
+}
+
 class FreeShipping extends React.Component {
 
   render() {
@@ -72,6 +85,7 @@ function Product({hit}) {
         <ShippingFee amount={hit.shipping_fee} />
         <p>{hit.description}</p>
         <FreeShipping amount={hit.free_ship_min} />
+        <BCorp bcorp={hit.b_corp} />
       </div>
     </a>
   );

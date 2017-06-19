@@ -75,3 +75,15 @@ p { margin: 0; }
 .ais-SearchBox__wrapper {
   font-size: 20px;
 }
+
+.bcorp {
+  position: absolute;
+  bottom: 0;
+  right: 8px;
+  height: 72px;
+  opacity: 0.5;
+}
+
+.card:hover .bcorp {
+  opacity: 0.9
+}
