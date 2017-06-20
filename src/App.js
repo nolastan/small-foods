@@ -78,7 +78,7 @@ function Product({hit}) {
   return (
     <a href={hit.url} className="card" target="_blank">
       <div className="logo">
-        <img src={hit.logo_url} />
+        <img src={hit.logo_url} alt={hit.name + " logo"} />
       </div>
       <div className="details">
         <h3>
