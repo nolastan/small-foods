@@ -85,7 +85,7 @@ function Product({hit}) {
           <Highlight attributeName="name" hit={hit} />
         </h3>
         <ShippingFee amount={hit.shipping_fee} />
-        <p>{hit.description}</p>
+        <p><Highlight attributeName="description" hit={hit} /></p>
         <FreeShipping amount={hit.free_ship_min} />
         <BCorp bcorp={hit.b_corp} />
       </div>
