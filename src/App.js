@@ -77,7 +77,9 @@ function Product({hit}) {
 
   return (
     <a href={hit.url} className="card" target="_blank">
-      <img src={"http://logo.clearbit.com/" + hit.url} />
+      <div className="logo">
+        <img src={hit.logo_url} />
+      </div>
       <div className="details">
         <h3>
           <Highlight attributeName="name" hit={hit} />

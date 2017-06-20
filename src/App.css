@@ -1,3 +1,5 @@
+* { box-sizing: border-box; }
+
 .container {
   margin: 0 auto;
   max-width: 720px;
@@ -38,8 +40,17 @@
   border: none;
 }
 
-.card img {
+.card .logo {
   flex: 0 0 140px;
+  max-height: 140px;
+  padding: 12px;
+  text-align: center;
+  align-self: center;
+}
+
+.card .logo img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .card .details {
