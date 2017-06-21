@@ -18,5 +18,5 @@
     "eject": "react-scripts eject",
     "deploy" : "npm run build&&gh-pages -d build"
   },
-  "proxy": "http://localhost:3001"
+  "proxy": "https://guarded-ridge-90726.herokuapp.com"
 }
