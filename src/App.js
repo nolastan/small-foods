@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import bcorp_logo from './b-corp.png';
-import {BrowserRouter as Router, Link, Route} from 'react-router-dom'
+import {Link, Route} from 'react-router-dom'
 import './App.css';
 import Brand from './Brand';
 
 import {InstantSearch, Hits, SearchBox, Highlight, RefinementList,
-  CurrentRefinements, ClearAll, PoweredBy, Configure}
+  CurrentRefinements, PoweredBy, Configure}
   from 'react-instantsearch/dom';
 
 function Search() {
@@ -24,7 +24,7 @@ function Search() {
 class ShippingFee extends React.Component {
 
   freeShippingStyle() {
-    if (this.props.amount == 0) {
+    if (this.props.amount === 0) {
       return "shipping-fee free-shipping"
     } else {
       return "shipping-fee"
@@ -119,7 +119,6 @@ class App extends Component {
               <Search/>
               <Configure hitsPerPage={500} />
             </InstantSearch>
-
           )} />
         </div>
       </main>

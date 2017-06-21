@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
-import {BrowserRouter as Router, Link} from 'react-router-dom'
-import bcorp_logo from './b-corp.png';
-// import './Brand.css';
-
+import {Link} from 'react-router-dom'
 
 class Brand extends Component {
 
   state = {brand: {}}
 
   loadBrandById(brandId) {
-    fetch(`/users?uid=${brandId}`)
+    fetch(`/brands?uid=${brandId}`)
       .then(res => res.json())
       .then(brand => this.setState({ brand }));
   }
