@@ -95,6 +95,14 @@ p { margin: 0; }
   opacity: 0.5;
 }
 
+.info {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 75%;
+  text-decoration: none;
+}
+
 .card:hover .bcorp {
   opacity: 0.9
 }

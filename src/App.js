@@ -78,7 +78,7 @@ class FreeShipping extends React.Component {
 function Product({hit}) {
 
   return (
-    <Link to={`/brand/${hit.uid}`} className="card">
+    <a href={hit.url} className="card">
       <div className="logo">
         <img src={hit.logo_url} alt={hit.name + " logo"} />
       </div>
@@ -91,7 +91,8 @@ function Product({hit}) {
         <FreeShipping amount={hit.free_ship_min} />
         <BCorp bcorp={hit.b_corp} />
       </div>
-    </Link>
+      <Link to={`/brand/${hit.uid}`} className="info">info</Link>
+    </a>
   );
 };
 
