@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import Brand from './Brand';
 import './index.css';
 
 ReactDOM.render(
-  <Brand />,
+  <App />,
   document.getElementById('root')
 );
