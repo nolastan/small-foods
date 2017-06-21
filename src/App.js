@@ -22,7 +22,7 @@ function Search() {
 class ShippingFee extends React.Component {
 
   freeShippingStyle() {
-    if (this.props.amount == "0") {
+    if (this.props.amount == 0) {
       return "shipping-fee free-shipping"
     } else {
       return "shipping-fee"
@@ -30,7 +30,7 @@ class ShippingFee extends React.Component {
   };
 
   render() {
-    if(this.props.amount) {
+    if(this.props.amount != null) {
       return (
         <div className={ this.freeShippingStyle() }>
           <div>${this.props.amount} shipping</div>
@@ -58,7 +58,7 @@ class BCorp extends React.Component {
 class FreeShipping extends React.Component {
 
   render() {
-    if(this.props.amount) {
+    if(this.props.amount != null) {
       return (
         <p>
           <small>
