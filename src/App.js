@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import bcorp_logo from './b-corp.png';
+import {BrowserRouter as Router, Link, Route} from 'react-router-dom'
 import './App.css';
+import Brand from './Brand';
 
 import {InstantSearch, Hits, SearchBox, Highlight, RefinementList,
   CurrentRefinements, ClearAll, PoweredBy, Configure}
@@ -76,7 +78,7 @@ class FreeShipping extends React.Component {
 function Product({hit}) {
 
   return (
-    <a href={hit.url} className="card" target="_blank">
+    <Link to={`/brand/${hit.uid}`} className="card">
       <div className="logo">
         <img src={hit.logo_url} alt={hit.name + " logo"} />
       </div>
@@ -89,7 +91,7 @@ function Product({hit}) {
         <FreeShipping amount={hit.free_ship_min} />
         <BCorp bcorp={hit.b_corp} />
       </div>
-    </a>
+    </Link>
   );
 };
 
@@ -105,14 +107,22 @@ class App extends Component {
 
   render() {
     return (
-      <InstantSearch
-        appId="25FP8A4DOG"
-        apiKey="8af649249ad11a64f1d74c5321223af4"
-        indexName="brands"
-      >
-        <Search/>
-        <Configure hitsPerPage={500} />
-      </InstantSearch>
+      <main>
+        <Route path="/brand/:brandId" component={Brand} />
+        <div className="search">
+          <Route exact={true} path="/" render={() => (
+            <InstantSearch
+              appId="25FP8A4DOG"
+              apiKey="8af649249ad11a64f1d74c5321223af4"
+              indexName="brands"
+            >
+              <Search/>
+              <Configure hitsPerPage={500} />
+            </InstantSearch>
+
+          )} />
+        </div>
+      </main>
     );
   }
 }
