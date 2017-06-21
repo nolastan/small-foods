@@ -93,14 +93,31 @@ function Product({hit}) {
   );
 };
 
-const App = () =>
-  <InstantSearch
-    appId="25FP8A4DOG"
-    apiKey="8af649249ad11a64f1d74c5321223af4"
-    indexName="brands"
-  >
-    <Search/>
-    <Configure hitsPerPage={500} />
-  </InstantSearch>
+class App extends Component {
+
+  state = {users: []}
+
+  componentDidMount() {
+    fetch('/users?uid=60')
+      .then(res => res.json())
+      .then(users => this.setState({ users }));
+  }
+
+  render() {
+    return (
+      <InstantSearch
+        appId="25FP8A4DOG"
+        apiKey="8af649249ad11a64f1d74c5321223af4"
+        indexName="brands"
+      >
+        <div className="App">
+          {this.state.users.name} {this.props.location.query}
+        </div>
+        <Search/>
+        <Configure hitsPerPage={500} />
+      </InstantSearch>
+    );
+  }
+}
 
 export default App;
