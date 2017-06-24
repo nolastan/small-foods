@@ -44,7 +44,7 @@ class Article extends Component {
   render() {
     return (
       <article>
-        <h1>{this.state.brands.length} brands for {this.props.match.params.listName} you absolutely must try</h1>
+        <h1 style={{textTransform: 'capitalize'}}>{this.state.brands.length || ""} Brands for {this.props.match.params.listName} You Absolutely Must Try</h1>
         <p>Instead of ordering your {this.props.match.params.listName} needs from Amazon, consider ordering directly from these responsible brands.</p>
         {this.state.brands.length > 0 && this.listBrands(this.state.brands)}
       </article>
