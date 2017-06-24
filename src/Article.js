@@ -7,8 +7,8 @@ class Article extends Component {
   state = {brands: []}
 
   loadBrandsByListName(listName) {
-    fetch(`/articles?listName=${listName}`)
-    // fetch(`https://guarded-ridge-90726.herokuapp.com/articles?list=${listName}`)
+    // fetch(`/articles?listName=${listName}`)
+    fetch(`https://guarded-ridge-90726.herokuapp.com/articles?listName=${listName}`)
       .then(res => res.json())
       .then(brands => this.setState({brands}));
   }
