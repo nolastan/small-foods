@@ -6,7 +6,8 @@ class Brand extends Component {
   state = {brand: {}}
 
   loadBrandById(brandId) {
-    fetch(`/brands?uid=${brandId}`)
+    // fetch(`/brands?uid=${brandId}`)
+    fetch(`https://guarded-ridge-90726.herokuapp.com/brands?uid=${brandId}`)
       .then(res => res.json())
       .then(brand => this.setState({ brand }));
   }
