@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Link, Route} from 'react-router-dom'
 import './App.css';
 import Brand from './Brand';
+import Article from './Article';
 import BcorpBadge from './BcorpBadge';
 
 import {InstantSearch, Hits, SearchBox, Highlight, RefinementList,
@@ -89,6 +90,7 @@ class App extends Component {
     return (
       <main>
         <Route path="/brand/:brandId" component={Brand} />
+        <Route path="/article/:listName" component={Article} />
         <div className="search">
           <Route exact={true} path="/" render={() => (
             <InstantSearch
