@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+import BcorpBadge from './BcorpBadge';
 
 class Brand extends Component {
 
@@ -25,8 +26,15 @@ class Brand extends Component {
   render() {
     return (
       <div className="Brand">
-        <h3>{this.state.brand.name}</h3>
-        <p>Shipping costs ${this.state.brand.shipping_fee}.</p>
+        <img src={this.state.brand.logo_url} /><br />
+        <h3>Order from {this.state.brand.name} online</h3>
+        <p>You can purchase directly from {this.state.brand.name} and have your
+        items delivered to your home. Shipping is only ${this.state.brand.shipping_fee} and if
+        you spend over ${this.state.brand.free_ship_min} {this.state.brand.name} will ship free!</p>
+        <h4>About {this.state.brand.name}</h4>
+        <p>{this.state.brand.description}</p>
+        <a href={this.state.brand.url}>Start shopping →</a>
+        <BcorpBadge bcorp={this.state.brand.b_corp} />
         <Link to='/'>back</Link>
       </div>
     );
