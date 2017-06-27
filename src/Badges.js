@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Badges extends React.Component {
+class Badges extends Component {
 
   bcorp() {
     if(this.props.badges.includes('bcorp')) {

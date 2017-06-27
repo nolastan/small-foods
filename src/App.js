@@ -15,74 +15,14 @@ function Search() {
       <CurrentRefinements/>
       <SearchBox />
       <RefinementList attributeName="category" />
-      <Hits hitComponent={Product} />
+      <Hits hitComponent={BrandResult} />
       <PoweredBy />
     </div>
   );
 };
 
-
-class ShippingFee extends React.Component {
-
-  freeShippingStyle() {
-    if (this.props.amount === 0) {
-      return "shipping-fee free-shipping"
-    } else {
-      return "shipping-fee"
-    }
-  };
-
-  render() {
-    if(this.props.amount != null) {
-      return (
-        <div className={ this.freeShippingStyle() }>
-          <div>${this.props.amount} shipping</div>
-        </div>
-      )
-    } else {
-      return <div />
-    }
-  };
-}
-
-class FreeShipping extends React.Component {
-
-  render() {
-    if(this.props.amount != null) {
-      return (
-        <p>
-          <small>
-            Free shipping on orders over ${this.props.amount}.
-          </small>
-        </p>
-      )
-    } else {
-      return <div />
-    }
-  };
-}
-
-
-function Product({hit}) {
-
-  return (
-    <div>
-    <a href={hit.url} className="card">
-      <div className="logo">
-        <img src={hit.logo_url} alt={hit.name + " logo"} />
-      </div>
-      <div className="details">
-        <h3>
-          <Highlight attributeName="name" hit={hit} />
-        </h3>
-        <ShippingFee amount={hit.shipping_fee} />
-        <p><Highlight attributeName="description" hit={hit} /></p>
-        <FreeShipping amount={hit.free_ship_min} />
-      </div>
-      <Link to={`/brand/${hit.uid}`} className="info">info</Link>
-    </a>
-    </div>
-  );
+function BrandResult({hit}) {
+  return <BrandCard brand={hit} />;
 };
 
 class App extends Component {
