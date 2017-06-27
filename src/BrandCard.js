@@ -29,14 +29,13 @@ const Card = styled(Link)`
 
 const Logo = styled.div`
   flex: 0 0 72px;
-  max-height: 72px;
   text-align: center;
   align-self: center;
 `;
 
   const LogoImage = styled.img`
     max-width: 100%;
-    max-height: 100%;
+    max-height: 72px;
   `;
 
 const Details = styled.div`

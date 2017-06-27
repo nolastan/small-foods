@@ -4,6 +4,7 @@ import './App.css';
 import Brand from './Brand';
 import Article from './Article';
 import BrandCard from './BrandCard';
+import styled from 'styled-components';
 
 import {InstantSearch, Hits, SearchBox, Highlight, RefinementList,
   CurrentRefinements, PoweredBy, Configure}
@@ -25,6 +26,12 @@ function BrandResult({hit}) {
   return <BrandCard brand={hit} />;
 };
 
+const Tagline = styled.h2`
+  text-align: center;
+  font-size: 24px;
+  color: #000000;
+`
+
 class App extends Component {
 
   render() {
@@ -32,8 +39,9 @@ class App extends Component {
       <main>
         <Route path="/brand/:brandId" component={Brand} />
         <Route path="/article/:listName" component={Article} />
-        <div className="search">
-          <Route exact={true} path="/" render={() => (
+        <Route exact={true} path="/" render={() => (
+          <div className="search">
+            <Tagline>Support the brands you love.</Tagline>
             <InstantSearch
               appId="25FP8A4DOG"
               apiKey="8af649249ad11a64f1d74c5321223af4"
@@ -42,8 +50,8 @@ class App extends Component {
               <Search/>
               <Configure hitsPerPage={500} />
             </InstantSearch>
-          )} />
-        </div>
+          </div>
+      )} />
       </main>
     );
   }
