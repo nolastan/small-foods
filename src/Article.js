@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import BcorpBadge from './BcorpBadge';
 
 class Article extends Component {
 

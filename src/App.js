@@ -3,7 +3,7 @@ import {Link, Route} from 'react-router-dom'
 import './App.css';
 import Brand from './Brand';
 import Article from './Article';
-import BcorpBadge from './BcorpBadge';
+import BrandCard from './BrandCard';
 
 import {InstantSearch, Hits, SearchBox, Highlight, RefinementList,
   CurrentRefinements, PoweredBy, Configure}
@@ -66,6 +66,7 @@ class FreeShipping extends React.Component {
 function Product({hit}) {
 
   return (
+    <div>
     <a href={hit.url} className="card">
       <div className="logo">
         <img src={hit.logo_url} alt={hit.name + " logo"} />
@@ -77,10 +78,10 @@ function Product({hit}) {
         <ShippingFee amount={hit.shipping_fee} />
         <p><Highlight attributeName="description" hit={hit} /></p>
         <FreeShipping amount={hit.free_ship_min} />
-        <BcorpBadge bcorp={hit.b_corp} />
       </div>
       <Link to={`/brand/${hit.uid}`} className="info">info</Link>
     </a>
+    </div>
   );
 };
 

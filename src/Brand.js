@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import BcorpBadge from './BcorpBadge';
+import BrandCard from './BrandCard';
 
 class Brand extends Component {
 
@@ -26,6 +26,7 @@ class Brand extends Component {
   render() {
     return (
       <div className="Brand">
+        <BrandCard brand={this.state.brand} />
         <img src={this.state.brand.logo_url} /><br />
         <h3>Order from {this.state.brand.name} online</h3>
         <p>You can purchase directly from {this.state.brand.name} and have your
@@ -34,7 +35,6 @@ class Brand extends Component {
         <h4>About {this.state.brand.name}</h4>
         <p>{this.state.brand.description}</p>
         <a href={this.state.brand.url}>Start shopping →</a>
-        <BcorpBadge bcorp={this.state.brand.b_corp} />
         <Link to='/'>back</Link>
       </div>
     );
