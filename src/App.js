@@ -3,6 +3,7 @@ import {Link, Route} from 'react-router-dom'
 import './App.css';
 import Brand from './Brand';
 import Article from './Article';
+import Header from './Header';
 import BrandCard from './BrandCard';
 import styled from 'styled-components';
 
@@ -30,6 +31,7 @@ const Tagline = styled.h2`
   text-align: center;
   font-size: 24px;
   color: #000000;
+  margin: 2ex 0;
 `
 
 class App extends Component {
@@ -37,6 +39,7 @@ class App extends Component {
   render() {
     return (
       <main>
+        <Header />
         <Route path="/brand/:brandId" component={Brand} />
         <Route path="/article/:listName" component={Article} />
         <Route exact={true} path="/" render={() => (

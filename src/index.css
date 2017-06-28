@@ -6,21 +6,13 @@ body {
   line-height: 1.5;
 }
 
-header {
-  text-align: center;
-}
-
-header p {
-  margin-top: 0;
-}
-
-h1 {
-  margin-bottom: 0;
-  font-size: 150%;
-}
-
-header .why {
+.why {
   position: absolute;
   top: 1ex;
   right: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #436592;
 }

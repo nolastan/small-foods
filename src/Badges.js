@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
+import styled from 'styled-components';
+
+const BadgeItem = styled.span`
+  cursor: help;
+  margin-left: 6px;
+`;
+
 
 class Badges extends Component {
 
   bcorp() {
     if(this.props.badges.includes('bcorp')) {
       return (
-        <div title="This company is a Certified B-Corporation.">Ⓑ</div>
+        <BadgeItem title="This company is a Certified B-Corporation.">❤️</BadgeItem>
       )
     }
   }
@@ -13,21 +20,21 @@ class Badges extends Component {
   employeeOwned() {
     if(this.props.badges.includes('employee_owned')) {
       return (
-        <div title="This company is employee-owned.">🤝</div>
+        <BadgeItem title="This company is employee-owned.">🤝</BadgeItem>
       )
     }
   }
 
   render() {
-    if(this.props.badges && this.props.badges.includes('bcorp')) {
+    if(this.props.badges) {
       return (
-        <span className="badges">
+        <span>
           {this.employeeOwned()}
           {this.bcorp()}
         </span>
       )
     } else {
-      return <div />
+      return null;
     }
   };
 }

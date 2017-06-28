@@ -9,15 +9,17 @@ const Card = styled(Link)`
   display: flex;
 
   width: 100%;
-  height: 96px;
+  min-height: 96px;
 
   margin: 16px 0;
   padding: 12px;
 
+  align-items: center;
+
   background: #FEFEFE;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
 
-  text-decoration: none;
+  color: #7D7D7D;
 
   transition: box-shadow 0.1s, background 0.1s;
 
@@ -30,7 +32,6 @@ const Card = styled(Link)`
 const Logo = styled.div`
   flex: 0 0 72px;
   text-align: center;
-  align-self: center;
 `;
 
   const LogoImage = styled.img`
@@ -41,12 +42,14 @@ const Logo = styled.div`
 const Details = styled.div`
   flex: 1;
   margin: 0 12px;
+  align-self: flex-start;
 `;
 
 const Name = styled.h3`
   font-weight: 300;
   font-size: 22px;
   letter-spacing: -0.44px;
+  display: inline;
 
   color: #000000;
 `;
@@ -55,37 +58,33 @@ const Products = styled.p`
   font-weight: 300;
   font-size: 16px;
   letter-spacing: -0.32px;
-  color: #7D7D7D;
+  text-transform: capitalize;
 `;
 
 const Shipping = styled.div`
-  align-self: center;
   display: flex;
-  flex: 0;
+  text-transform: uppercase;
 `;
 
   const Amount = styled.dl`
     text-align: center;
-    align-self: center;
     margin: 0 12px;
   `;
 
     const Value = styled.dd`
       font-size: 18px;
       color: #393939;
-      margin: 0;
     `;
 
     const Label = styled.dt`
       font-size: 8px;
-      text-transform: uppercase;
       color: #8A8A8A;
     `;
 
 class BrandCard extends React.Component {
 
   freeShipMin() {
-    if(this.props.brand.free_ship_min) {
+    if(this.props.brand.free_ship_min && this.props.brand.shipping_fee !== 0) {
       return (
         <Amount>
           <Value>${this.props.brand.free_ship_min}+</Value>
@@ -97,10 +96,10 @@ class BrandCard extends React.Component {
 
   shippingFee() {
     if(this.props.brand.shipping_fee) {
-      var amount = this.props.brand.shipping_fee == 0 ? "Free" : this.props.brand.shipping_fee
+      var amount = this.props.brand.shipping_fee == 0 ? "Free" : "$" + this.props.brand.shipping_fee
       return (
         <Amount>
-          <Value>${amount}</Value>
+          <Value>{amount}</Value>
           <Label>Shipping</Label>
         </Amount>
       )
@@ -119,7 +118,7 @@ class BrandCard extends React.Component {
           </Name>
           <Badges badges={this.props.brand.badges} />
           <Products>
-            {this.props.brand.products && this.props.brand.products.join(", ")}
+            {this.props.brand.products}
           </Products>
         </Details>
         <Shipping>
