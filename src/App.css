@@ -17,6 +17,10 @@ p, h3 { margin: 0; }
   width: auto;
 }
 
+.ais-SearchBox__wrapper {
+  margin-top: 2ex;
+}
+
 .ais-SearchBox__wrapper input {
   box-shadow: none;
   border-radius: 2px;

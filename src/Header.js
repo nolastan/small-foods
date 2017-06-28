@@ -14,6 +14,10 @@ const HomeLink = styled(Link)`
   display: flex;
   align-items: center;
   font-size: 32px;
+
+  &:hover {
+    text-decoration: none;
+  }
 `
 
 const Why = styled.a`

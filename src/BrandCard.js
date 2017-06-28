@@ -26,6 +26,7 @@ const Card = styled(Link)`
   &:hover {
     background: #FFF;
     box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.07);
+    text-decoration: none;
   }
 `;
 

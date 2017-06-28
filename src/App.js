@@ -7,6 +7,8 @@ import Header from './Header';
 import BrandCard from './BrandCard';
 import styled from 'styled-components';
 
+import {PageTitle} from './styles/Typography';
+
 import {InstantSearch, Hits, SearchBox, Highlight, RefinementList,
   CurrentRefinements, PoweredBy, Configure}
   from 'react-instantsearch/dom';
@@ -27,35 +29,30 @@ function BrandResult({hit}) {
   return <BrandCard brand={hit} />;
 };
 
-const Tagline = styled.h2`
-  text-align: center;
-  font-size: 24px;
-  color: #000000;
-  margin: 2ex 0;
-`
+
 
 class App extends Component {
 
   render() {
     return (
-      <main>
+      <div>
         <Header />
         <Route path="/brand/:brandId" component={Brand} />
         <Route path="/article/:listName" component={Article} />
         <Route exact={true} path="/" render={() => (
-          <div className="search">
-            <Tagline>Support the brands you love.</Tagline>
+          <main>
+            <PageTitle>Support the brands you love.</PageTitle>
             <InstantSearch
               appId="25FP8A4DOG"
               apiKey="8af649249ad11a64f1d74c5321223af4"
               indexName="brands"
             >
-              <Search/>
+              <Search />
               <Configure hitsPerPage={500} />
             </InstantSearch>
-          </div>
-      )} />
-      </main>
+          </main>
+        )} />
+      </div>
     );
   }
 }
