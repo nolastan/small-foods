@@ -1,0 +1,1309 @@
+{
+  "29": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/http://shop.plumorganics.com/",
+        "url":"http://shop.plumorganics.com/",
+        "name":"Plum Organics",
+        "does_ship":true,
+        "shipping_fee":6,
+        "free_ship_min":59,
+        "description":"Shop Online at Plum Organics Online Store with Free Shipping. Discover our complete line of organic baby foods including portable baby food pouches, meals, toddler & kids snacks.",
+        "badges":[
+           "bcorp"
+        ]
+  },
+  "3": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/http://www.edenfoods.com/",
+        "url":"http://www.edenfoods.com/",
+        "name":"Eden Foods",
+        "does_ship":true,
+        "shipping_fee":13.72,
+        "description":"Creation and Maintenance of Purity in Food"
+  },
+  "42": {
+        "score":99,
+        "logo_url":"http://logo.clearbit.com/https://www.kindsnacks.com/",
+        "url":"https://www.kindsnacks.com/",
+        "name":"Kind",
+        "does_ship":true,
+        "shipping_fee":7,
+        "free_ship_min":50,
+        "description":"KIND makes wholesome, delicious snacks with ingredients you will recognize—like whole nuts and whole grains—along with a variety of fruits and spices.",
+        "lists":[
+           "airbnb"
+        ],
+        "products":[
+           "breakfast",
+           "snacks",
+           "nuts",
+           "fruit"
+        ]
+  },
+  "20": {
+        "score":0,
+        "logo_url":"logos/now-2-u.png",
+        "url":"https://www.now-2-u.com/",
+        "name":"Now Foods",
+        "does_ship":true,
+        "shipping_fee":5,
+        "free_ship_min":75
+  },
+  "72": {
+        "score":0,
+        "logo_url":"logos/wild-planet.png",
+        "url":"http://www.wildplanetfoods.com/our-products/",
+        "name":"Wild Planet",
+        "does_ship":true,
+        "shipping_fee":0,
+        "free_ship_min":0
+  },
+  "89": {
+        "score":20,
+        "logo_url":"http://logo.clearbit.com/http://wholesomesweet.com/",
+        "url":"http://wholesomesweet.com/",
+        "name":"Wholesome",
+        "does_ship":true,
+        "shipping_fee":6,
+        "description":"Wholesome! is committed to providing the most delicious Fair Trade Certified, Organic & Non-GMO Project Verified sweeteners.",
+        "lists":[
+           "baking"
+        ],
+        "products":[
+           "sugar"
+        ]
+  },
+  "49": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/http://earthmama.com/",
+        "url":"http://earthmama.com/",
+        "name":"Earth Mama Angel Baby",
+        "does_ship":true,
+        "shipping_fee":5,
+        "free_ship_min":49,
+        "description":"Safe, organic, natural herbal pregnancy & baby care products to support the entire journey of childbirth. Trusted, hospital recommended, Non GMO and Non toxic.",
+        "lists":[
+           "moms"
+        ]
+  },
+  "11": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/http://everydayshea.com/",
+        "url":"http://everydayshea.com/",
+        "name":"Everyday Shea",
+        "does_ship":true,
+        "shipping_fee":10,
+        "free_ship_min":75
+  },
+  "92": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/http://www.navitasorganics.com",
+        "url":"http://www.navitasorganics.com",
+        "name":"Navitas Naturals",
+        "does_ship":true,
+        "shipping_fee":13,
+        "description":"Go after each day with passion and drive. Super-simple, super-nutritious superfoods give you the energy you need to live each day to the fullest."
+  },
+  "102": {
+        "score":1,
+        "logo_url":"http://logo.clearbit.com/http:/thrivemarket.com",
+        "url":"http://thrv.me/noladeals",
+        "name":"Thrive Market",
+        "does_ship":true,
+        "shipping_fee":6,
+        "free_ship_min":49,
+        "description":"Get Your Favorite Organic & Non-GMO Brands Delivered to Your Door",
+        "lists":[
+           "chefs"
+        ],
+        "products":[
+           "distributor"
+        ]
+  },
+  "48": {
+        "score":3,
+        "logo_url":"http://logo.clearbit.com/https://www.teatulia.com/",
+        "url":"https://www.teatulia.com/",
+        "name":"Teatulia",
+        "does_ship":true,
+        "shipping_fee":5,
+        "free_ship_min":49,
+        "description":"Teatulia provides premium organic black, green, oolong, and white teas and herbals grown from a single garden in Tetulia, Bangladesh. Rainforest Alliance & Kosher certified.",
+        "products":[
+           "tea"
+        ],
+        "badges":[
+           "bcorp"
+        ]
+  },
+  "40": {
+        "score":85,
+        "logo_url":"logos/la-tourangelle.png",
+        "url":"https://latourangelle.com",
+        "name":"La Tourangelle",
+        "does_ship":true,
+        "free_ship_min":50,
+        "description":"La Tourangelle is an authentic producer of all-natural specialty oils, handcrafting a wide range of artisan nut oils in California while also distributing premium oils",
+        "lists":[
+           "chefs"
+        ],
+        "products":[
+           "cooking oil"
+        ]
+  },
+  "74": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/https://solorganix.com/",
+        "url":"https://solorganix.com/",
+        "name":"SOL (Sustained Organic Living)",
+        "does_ship":true,
+        "shipping_fee":0,
+        "free_ship_min":0,
+        "description":"Timeless collection of bedding made from highest quality Fair Trade certified organic cotton. Online Shop organic Luxury Sheets Sets at affordable Price.",
+        "lists":[
+           "airbnb"
+        ]
+  },
+  "90": {
+        "score":5,
+        "logo_url":"http://logo.clearbit.com/http://www.allterrainco.com/",
+        "url":"http://www.allterrainco.com/",
+        "name":"All Terrain",
+        "does_ship":true,
+        "shipping_fee":6,
+        "lists":[
+           "outdoors"
+        ],
+        "products":[
+           "bandages",
+           "insect repellent"
+        ]
+  },
+  "71": {
+        "score":70,
+        "logo_url":"http://logo.clearbit.com/http://newmansown.com",
+        "url":"http://newmansown.com",
+        "name":"Newman's Own",
+        "does_ship":true,
+        "shipping_fee":0,
+        "free_ship_min":0,
+        "description":"Great tasting all-natural food. All profits to charity.",
+        "products":[
+           "salad dressing",
+           "snacks"
+        ]
+  },
+  "9": {
+        "score":25,
+        "logo_url":"http://logo.clearbit.com/https://jilzglutenfree.com/",
+        "url":"https://jilzglutenfree.com/",
+        "name":"Jilz Gluten Free",
+        "does_ship":true,
+        "shipping_fee":7,
+        "free_ship_min":79,
+        "coupon":"WELCOME20",
+        "lists":[
+           "gluten-free"
+        ],
+        "products":[
+           "crackers"
+        ]
+  },
+  "56": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/http://www.traditionalmedicinals.com/",
+        "url":"http://www.traditionalmedicinals.com/",
+        "name":"Traditional Medicinals",
+        "does_ship":true,
+        "shipping_fee":6,
+        "free_ship_min":45,
+        "description":"Traditional Medicinals Tea offers a quality difference in wellness teas not found anywhere else. Take our Plant Personality Quiz to find out more."
+  },
+  "2": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/http://nutiva.com/",
+        "url":"http://nutiva.com/",
+        "name":"Nutiva",
+        "does_ship":true,
+        "shipping_fee":7,
+        "free_ship_min":100,
+        "description":"Nutiva offers the best Extra Virgin Organic Coconut Oil, Hemp Protein, Hemp Seed Oil and Chia Seed. Free UPS Shipping on $30+ Orders!"
+  },
+  "37": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/http://www.ukonserve.com/",
+        "url":"http://www.ukonserve.com/",
+        "name":"U Konserve",
+        "does_ship":true,
+        "shipping_fee":4,
+        "free_ship_min":50,
+        "description":"U Konserve offers waste free and reusable food storage containers, stainless steel bento box containers, glass food storage containers, glass water bottles, and insulated lunch bags."
+  },
+  "54": {
+        "score":15,
+        "logo_url":"http://logo.clearbit.com/http://us.naturespath.com/",
+        "url":"http://us.naturespath.com/",
+        "name":"Nature's Path",
+        "does_ship":true,
+        "shipping_fee":6,
+        "free_ship_min":45,
+        "description":"Family owned and operated organic breakfast and snack foods company, that believes in leaving the earth better than we found it.",
+        "coupon":"WELCOME10",
+        "lists":[
+           "airbnb"
+        ],
+        "products":[
+           "cereal",
+           "snacks",
+           "energy bar",
+           "oatmeal"
+        ],
+        "badges":[
+           "non_gmo",
+           "organic"
+        ]
+  },
+  "52": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/https://www.auracacia.com/",
+        "url":"https://www.auracacia.com/",
+        "name":"Aura Cacia",
+        "does_ship":true,
+        "shipping_fee":6,
+        "free_ship_min":49
+  },
+  "50": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/http://www.renewlife.com/",
+        "url":"http://www.renewlife.com/",
+        "name":"ReNew Life",
+        "does_ship":true,
+        "free_ship_min":49,
+        "description":"Visit ReNew Life for the Highest Potency Probiotics & highest quality Herbal Cleanses, Digestive Enzymes, Fish Oil & Fiber Supplements on the market."
+  },
+  "38": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/https://healthforce.com/",
+        "url":"https://healthforce.com/",
+        "name":"HealthForce",
+        "does_ship":true,
+        "shipping_fee":5,
+        "free_ship_min":50,
+        "description":"HealthForce Nutritionals is a 20+ year old raw, vegan, hard-core superfood company specializing in cleansing, detoxification and optimum health."
+  },
+  "46": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/https://www.shopmammachia.com",
+        "url":"https://www.shopmammachia.com",
+        "name":"Mamma Chia",
+        "does_ship":true,
+        "shipping_fee":6,
+        "free_ship_min":49,
+        "badges":[
+           "bcorp"
+        ]
+  },
+  "21": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/https://nourishorganic.com",
+        "url":"https://nourishorganic.com",
+        "name":"Nourish Organic",
+        "does_ship":true,
+        "shipping_fee":7,
+        "free_ship_min":69,
+        "description":"100% USDA organic skincare and bodycare that is clinically proven to moisturize skin. Nourish is gluten-free, mostly vegan & 100% chemical-free."
+  },
+  "76": {
+        "score":0,
+        "logo_url":"logos/Happy-Family-Brands.jpg",
+        "url":"https://happyfamilybrands.com/baby/",
+        "name":"Happy Baby",
+        "does_ship":true,
+        "shipping_fee":10,
+        "description":"Premium Organic Baby Food Including Cereal, Pouches and Snacks Give Your Baby the Optimal Nutrition Needed for their Growing Bodies.",
+        "lists":[
+           "moms"
+        ],
+        "badges":[
+           "bcorp"
+        ]
+  },
+  "103": {
+        "score":1,
+        "logo_url":"http://logo.clearbit.com/https:/www.chewy.com/",
+        "url":"https://www.chewy.com",
+        "name":"Chewy",
+        "does_ship":true,
+        "shipping_fee":4.95,
+        "free_ship_min":49,
+        "description":"Chewy.com was founded by people with a serious passion for helping pets. They wanted to make the process of finding food, treats and all that good stuff easy to find--and deliver it straight to your doorstep.",
+        "lists":[
+           "pets"
+        ],
+        "products":[
+           "dog food",
+           "cat food"
+        ]
+  },
+  "31": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/http://www.weleda.com/",
+        "url":"http://www.weleda.com/",
+        "name":"Weleda",
+        "does_ship":true,
+        "shipping_fee":9,
+        "free_ship_min":50
+  },
+  "5": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/https://www.goraw.com/",
+        "url":"https://www.goraw.com/",
+        "name":"Go Raw",
+        "does_ship":true,
+        "free_ship_min":100
+  },
+  "57": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/https://www.eoproducts.com/",
+        "url":"https://www.eoproducts.com/",
+        "name":"EO",
+        "does_ship":true,
+        "shipping_fee":5,
+        "free_ship_min":45,
+        "description":"An essential collection of bath, body, skin, and hair care products made with active botanicals and always scented with pure essential oils."
+  },
+  "25": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/http://theteaspot.com/",
+        "url":"http://theteaspot.com/",
+        "name":"The Tea Spot",
+        "does_ship":true,
+        "shipping_fee":4,
+        "free_ship_min":60,
+        "description":"The Tea Spot: Loose leaf tea, pyramid sachets & modern Steepware? to make loose tea easy. Handcrafted in Boulder, Colorado, since 2004 - with a mission of health & wellness.",
+        "badges":[
+           "bcorp"
+        ]
+  },
+  "41": {
+        "score":5,
+        "logo_url":"http://logo.clearbit.com/https://www.honest.com",
+        "url":"https://www.honest.com",
+        "name":"The Honest Co.",
+        "does_ship":true,
+        "shipping_fee":6,
+        "free_ship_min":50,
+        "description":"We believe the products people use should be safe for their families and homes. We also believe it’s better to be safe than sorry when deciding what goes in our products and we’re vigilant about the latest science regarding chemicals and health to ensure we’re being mindfully cautious.",
+        "lists":[
+           "moms"
+        ],
+        "products":[
+           "diapers",
+           "laundry",
+           "soap",
+           "sunscreen"
+        ],
+        "badges":[
+           "bcorp"
+        ]
+  },
+  "32": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/https://www.blueavocado.com/",
+        "url":"https://www.blueavocado.com/",
+        "name":"BlueAvocado",
+        "does_ship":true,
+        "shipping_fee":10,
+        "free_ship_min":50
+  },
+  "67": {
+        "score":0,
+        "logo_url":"logos/garden-of-life.png",
+        "url":"https://www.gardenoflife.com/",
+        "name":"Garden of Life",
+        "does_ship":true,
+        "shipping_fee":5,
+        "free_ship_min":25,
+        "description":"Empowering Extraordinary Health?. Since the very beginning, Garden of Life has chosen the purest, cleanest, highest quality whole food ingredients possible."
+  },
+  "99": {
+        "score":5,
+        "logo_url":"http://logo.clearbit.com/https://milkimchi.com/",
+        "url":"https://milkimchi.com/",
+        "name":"Mother In Laws",
+        "does_ship":true,
+        "shipping_fee":13,
+        "description":"Mother-in-Law's Kimchi grew out of a labor of love to share a delicious, artisanal kimchi.",
+        "lists":[
+           "chefs"
+        ],
+        "products":[
+           "kimchi",
+           "gochujang",
+           "korean",
+           "sauces"
+        ]
+  },
+  "101": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/https://www.naturalhomebrands.com/",
+        "url":"https://www.naturalhomebrands.com/",
+        "name":"Natural Home",
+        "does_ship":true,
+        "shipping_fee":8,
+        "description":"Natural Home Brands is the 1 stop shop for all your Ecofriendly kitchen must haves-Compost Bins, bamboo & molded bamboo utensils. Get the plastic alternative!"
+  },
+  "60": {
+        "score":97,
+        "logo_url":"http://logo.clearbit.com/https://www.drbronner.com/",
+        "url":"https://www.drbronner.com/",
+        "name":"Dr. Bronner's",
+        "does_ship":true,
+        "shipping_fee":8,
+        "free_ship_min":35,
+        "description":"Organic Pure-Castile Soap, Organic Body & Hair Care, Organic Toothpaste",
+        "products":[
+           "soap",
+           "shampoo",
+           "toothpaste",
+           "coconut oil",
+           "shaving"
+        ]
+  },
+  "82": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/https://emmysorganics.com/",
+        "url":"https://emmysorganics.com/",
+        "name":"Emmy's Organics",
+        "does_ship":true,
+        "shipping_fee":5,
+        "description":"Gluten-Free, Organic, Vegan and Non-GMO snacks!",
+        "badges":[
+           "bcorp"
+        ]
+  },
+  "1": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/https://www.herb-pharm.com/",
+        "url":"https://www.herb-pharm.com/",
+        "name":"Herb Pharm",
+        "does_ship":true,
+        "shipping_fee":6,
+        "free_ship_min":150
+  },
+  "88": {
+        "score":5,
+        "logo_url":"http://logo.clearbit.com/http://shop.latejuly.com/",
+        "url":"http://shop.latejuly.com/",
+        "name":"Late July",
+        "does_ship":true,
+        "shipping_fee":8,
+        "description":"The best parties need a few simple things - great friends, good stories and delicious food! At LATE JULY, these three things always come together around a big bowl of delicious tortilla chips.",
+        "lists":[
+           "college"
+        ],
+        "products":[
+           "snacks",
+           "crackers"
+        ]
+  },
+  "8": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/https://shop.sweetriot.com/",
+        "url":"https://shop.sweetriot.com/",
+        "name":"Sweet Riot",
+        "does_ship":true,
+        "shipping_fee":15,
+        "free_ship_min":79,
+        "description":"sweetriot - the ultimate healthy guiltess fix. At sweetriot we know you are looking for life's best, healthy, delicious, on-the-go treats & snacks. You deserve",
+        "badges":[
+           "bcorp"
+        ]
+  },
+  "53": {
+        "score":96,
+        "logo_url":"http://logo.clearbit.com/https://www.simplyorganic.com",
+        "url":"https://www.simplyorganic.com",
+        "name":"Simply Organic",
+        "does_ship":true,
+        "shipping_fee":6,
+        "free_ship_min":49,
+        "description":"Find and share organic recipes with the pure flavor of Simply Organic spices and herbs. For organic meal ideas, search by course, ingredient and collection.",
+        "lists":[
+           "airbnb"
+        ],
+        "products":[
+           "spices"
+        ]
+  },
+  "13": {
+        "score":5,
+        "logo_url":"http://logo.clearbit.com/http://gothinksport.com/",
+        "url":"http://gothinksport.com/",
+        "name":"Thinksport",
+        "does_ship":true,
+        "shipping_fee":8,
+        "free_ship_min":75,
+        "lists":[
+           "outdoors"
+        ],
+        "products":[
+           "sunscreen"
+        ]
+  },
+  "93": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/http://www.nomiss.com/",
+        "url":"http://www.nomiss.com/",
+        "name":"No Miss Cosmetics",
+        "does_ship":true,
+        "shipping_fee":8
+  },
+  "64": {
+        "score":3,
+        "logo_url":"http://logo.clearbit.com/https://jovialfoods.com/",
+        "url":"https://jovialfoods.com/",
+        "name":"Jovial",
+        "does_ship":true,
+        "shipping_fee":6,
+        "free_ship_min":25,
+        "description":"Organic Einkorn, Gluten, and Allergen Free Foods.",
+        "lists":[
+           "gluten-free"
+        ],
+        "products":[
+           "pasta"
+        ]
+  },
+  "85": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/https://www.rescuechocolate.com/",
+        "url":"https://www.rescuechocolate.com/",
+        "name":"Rescue Chocolate",
+        "does_ship":true,
+        "shipping_fee":15,
+        "description":"Rescue Chocolate is the sweetest way to save a life! All profits are donated to animal rescue groups. Kosher, Vegan, Certified B Corp, & Made in Brooklyn, NY.",
+        "badges":[
+           "bcorp"
+        ]
+  },
+  "104": {
+        "score":15,
+        "logo_url":"http://logo.clearbit.com/https:/www.freshpreserving.com",
+        "url":"https://www.freshpreserving.com/",
+        "name":"Ball Mason Jars",
+        "does_ship":true,
+        "shipping_fee":50,
+        "free_ship_min":50,
+        "description":"Ball and Kern mason jars",
+        "coupon":"FRESH15",
+        "products":[
+           "jars",
+           "tableware",
+           "kitchen tools",
+           "canning"
+        ]
+  },
+  "78": {
+        "score":0,
+        "logo_url":"logos/Frontier_Snacks_logo.png",
+        "url":"http://frontierbites.com/order-online/",
+        "name":"Frontier Snacks",
+        "does_ship":true,
+        "shipping_fee":5,
+        "description":"Hand crafted from the very best ingredients, Frontier Bites are a new and innovative alternative to granola and energy bars. Each bite is made from only 8 ingredients so you can actually see what you are eating. With three naturally delicious flavors, guilt-free snacking never tasted so good.",
+        "lists":[
+           "airbnb",
+           "gluten-free"
+        ],
+        "products":[
+           "snacks",
+           "nuts"
+        ],
+        "badges":[
+           "bcorp",
+           "non_gmo"
+        ]
+  },
+  "105": {
+        "badges":[
+           "non_gmo"
+        ]
+  },
+  "68": {
+        "score":0,
+        "logo_url":"logos/betterbeanco.png",
+        "url":"https://squareup.com/market/better-bean-co",
+        "name":"Better Bean",
+        "does_ship":true,
+        "shipping_fee":0,
+        "free_ship_min":0,
+        "description":"Better Beans are refrigerated, ready-to-eat beans. Cooked fresh in Portland Oregon in Small Batches using regional all real ingredients. All our beans are vegan, gluten-free, non-GMO verified.",
+        "badges":[
+           "bcorp"
+        ]
+  },
+  "69": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/http://coffeesock.com/",
+        "url":"http://coffeesock.com/",
+        "name":"CoffeeSock",
+        "does_ship":true,
+        "shipping_fee":0,
+        "free_ship_min":0,
+        "description":"Makers of Reusable organic cotton coffee filters. Sustainable, Economical, and Simple."
+  },
+  "59": {
+        "score":0,
+        "logo_url":"logos/rumi.png",
+        "url":"https://www.rumispice.com/collections/all",
+        "name":"Rumi Spice",
+        "does_ship":true,
+        "shipping_fee":3,
+        "free_ship_min":35,
+        "description":"All of our Afghan saffron products for sale at Rumi Spice are high quality and recommended by top restaurants and chefs. Shop our online store today!",
+        "badges":[
+           "bcorp"
+        ]
+  },
+  "83": {
+        "score":0,
+        "logo_url":"logos/1051.png",
+        "url":"https://www.drink1051.com/",
+        "name":"1051",
+        "does_ship":true,
+        "shipping_fee":4,
+        "description":"1051 Organic Hydration uses organic fruit for flavor, contains 70 minerals in each bottle, and never adds sugar or anything artificial. It's perfect for ...",
+        "badges":[
+           "bcorp"
+        ]
+  },
+  "51": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/http://shop.gaiaherbs.com/",
+        "url":"http://shop.gaiaherbs.com/",
+        "name":"Gaia Herbs",
+        "does_ship":true,
+        "shipping_fee":6,
+        "free_ship_min":49
+  },
+  "86": {
+        "score":4,
+        "logo_url":"http://logo.clearbit.com/http://allgoodproducts.com/",
+        "url":"http://allgoodproducts.com/",
+        "name":"All Good",
+        "does_ship":true,
+        "shipping_fee":6,
+        "description":"All Good Products - Natural. Organic. Made with love from our farm to your hands.",
+        "lists":[
+           "outdoors"
+        ],
+        "products":[
+           "sunscreen"
+        ]
+  },
+  "100": {
+        "score":15,
+        "logo_url":"http://logo.clearbit.com/https://shop.healthwarrior.com/",
+        "url":"https://shop.healthwarrior.com/",
+        "name":"Health Warrior",
+        "does_ship":true,
+        "shipping_fee":4,
+        "description":"Superfoods For A Super You",
+        "coupon":"HW15OFF",
+        "lists":[
+           "outdoors"
+        ],
+        "products":[
+           "chia",
+           "snacks",
+           "energy bar"
+        ]
+  },
+  "45": {
+        "score":70,
+        "logo_url":"http://logo.clearbit.com/https://enjoylifefoods.com",
+        "url":"https://enjoylifefoods.com",
+        "name":"Enjoy Life",
+        "does_ship":true,
+        "shipping_fee":6,
+        "free_ship_min":49,
+        "description":"Eat freely and enjoy fully with a full range of allergy friendly, gluten-free, paleo, vegan, non-GMO natural foods from Enjoy Life Foods.",
+        "lists":[
+           "baking"
+        ],
+        "products":[
+           "chocolate"
+        ]
+  },
+  "98": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/https://charliebanana.com/",
+        "url":"https://charliebanana.com/",
+        "name":"Charlie Banana",
+        "does_ship":true,
+        "shipping_fee":3,
+        "description":"Trying to decide what type of diapers will be best for your baby? Cloth diapering is Easy, Healthier, Economical, Eco friendly and so much Cuter! Read more..."
+  },
+  "27": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/https://www.simplemills.com/",
+        "url":"https://www.simplemills.com/",
+        "name":"Simple Mills",
+        "does_ship":true,
+        "shipping_fee":8,
+        "free_ship_min":60,
+        "description":"Simple Mills makes Almond-Flour Baking Mixes including muffin, pancake, pizza, bread, and cookie mixes. Naturally gluten free and paleo-friendly.",
+        "lists":[
+           "gluten-free"
+        ]
+  },
+  "34": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/http://andalou.com/",
+        "url":"http://andalou.com/",
+        "name":"Andalou Naturals",
+        "does_ship":true,
+        "shipping_fee":8,
+        "free_ship_min":50,
+        "description":"Andalou embodies beauty in action. We infuse the best of nature and knowledge into mindful and effective products that are good for people and the planet."
+  },
+  "16": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/http://www.rareearthnaturals.com/",
+        "url":"http://www.rareearthnaturals.com/",
+        "name":"rareEARTH Naturals",
+        "does_ship":true,
+        "shipping_fee":4,
+        "free_ship_min":75,
+        "description":"At rareEARTH Naturals, we consciously source only the finest 100% essential oils from all over the world. We offer candles, diffusers, perfumes and more!"
+  },
+  "17": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/https://www.amazinggrass.com/",
+        "url":"https://www.amazinggrass.com/",
+        "name":"Amazing Grass",
+        "does_ship":true,
+        "shipping_fee":7,
+        "free_ship_min":75,
+        "description":"Organic Green SuperFoods."
+  },
+  "10": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/https://organicindiausa.com",
+        "url":"https://organicindiausa.com",
+        "name":"Organic India",
+        "does_ship":true,
+        "shipping_fee":7,
+        "free_ship_min":75,
+        "description":"Buy Organic Herbal Supplements",
+        "badges":[
+           "bcorp"
+        ]
+  },
+  "77": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/https://www.newchapter.com",
+        "url":"https://www.newchapter.com",
+        "name":"New Chapter",
+        "does_ship":true,
+        "shipping_fee":4,
+        "description":"Discover the Wisdom of Nature with New Chapter vitamins and whole-food Fermented supplements. Shop online for prenatal vitamins, fish oil, turmeric, Zyflamend(TM) and more.",
+        "products":[
+           "vitamins",
+           "herbs"
+        ],
+        "badges":[
+           "bcorp"
+        ]
+  },
+  "12": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/http://gothinkbaby.com/",
+        "url":"http://gothinkbaby.com/",
+        "name":"Thinkbaby",
+        "does_ship":true,
+        "shipping_fee":4,
+        "free_ship_min":75,
+        "lists":[
+           "moms"
+        ]
+  },
+  "30": {
+        "score":90,
+        "logo_url":"http://logo.clearbit.com/http://shop.justins.com/",
+        "url":"http://shop.justins.com/",
+        "name":"Justin's",
+        "does_ship":true,
+        "shipping_fee":6,
+        "free_ship_min":59,
+        "lists":[
+           "outdoors"
+        ],
+        "products":[
+           "peanut butter",
+           "almond butter"
+        ]
+  },
+  "91": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/http://www.giovannicosmetics.com/",
+        "url":"http://www.giovannicosmetics.com/",
+        "name":"Giovanni",
+        "does_ship":true,
+        "shipping_fee":10.99,
+        "description":"Giovanni Cosmetics"
+  },
+  "19": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/https://www.moonvalleyorganics.com/",
+        "url":"https://www.moonvalleyorganics.com/",
+        "name":"Moon Valley Organics",
+        "does_ship":true,
+        "shipping_fee":3,
+        "free_ship_min":75,
+        "description":"Hello. Thank you for supporting our effort to make available pure, safe and effective organic personal care products. Soaps, lotions, healing salves, moisturize"
+  },
+  "23": {
+        "score":25,
+        "logo_url":"http://logo.clearbit.com/http://shop.alterecofoods.com/",
+        "url":"http://shop.alterecofoods.com/",
+        "name":"Alter Eco",
+        "does_ship":true,
+        "shipping_fee":6,
+        "free_ship_min":65,
+        "description":"Buy All Your Favorite ALTER ECO Quinoa, Sugar, Rice, Chocolate & More!",
+        "coupon":"WELCOME10",
+        "lists":[
+           "airbnb"
+        ],
+        "products":[
+           "chocolate",
+           "quinoa",
+           "rice"
+        ],
+        "badges":[
+           "bcorp"
+        ]
+  },
+  "35": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/http://store.crocodilecreek.com/",
+        "url":"http://store.crocodilecreek.com/",
+        "name":"Crocodile Creek",
+        "does_ship":true,
+        "shipping_fee":7,
+        "free_ship_min":50,
+        "description":"The premier source for Crocodile Creek product purchases."
+  },
+  "28": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/http://shop.lotusfoods.com/",
+        "url":"http://shop.lotusfoods.com/",
+        "name":"Lotus Foods",
+        "does_ship":true,
+        "shipping_fee":6,
+        "free_ship_min":59,
+        "badges":[
+           "bcorp"
+        ]
+  },
+  "66": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/https://www.badgerbalm.com/",
+        "url":"https://www.badgerbalm.com/",
+        "name":"Badger",
+        "does_ship":true,
+        "shipping_fee":7,
+        "free_ship_min":25,
+        "description":"Badger makes certified organic and all-natural body & skin care products including healing balms, natural sunscreens, skin moisturizers, muscle rubs, aromatherapy and other personal care products."
+  },
+  "73": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/https://jarrowprobiotics.com/",
+        "url":"https://jarrowprobiotics.com/",
+        "name":"Jarrow Formulas",
+        "does_ship":true,
+        "shipping_fee":0,
+        "free_ship_min":0,
+        "description":"Jarrow Formulas, Probiotics, Probiotic Supplements, Healthy Digestion, Clinically Documented Strains, Acidophilus, Lactobacillus, Jarro-Dophilus, Fem-Dophilus"
+  },
+  "84": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/https://www.kulikulifoods.com",
+        "url":"https://www.kulikulifoods.com",
+        "name":"Kuli Kuli",
+        "does_ship":true,
+        "shipping_fee":5,
+        "description":"Kuli Kuli Foods is the Moringa Superfood company. We source high quality moringa oleifera from womens' cooperatives across West Africa and incorporate them into delicious superfood snacks.",
+        "badges":[
+           "bcorp"
+        ]
+  },
+  "87": {
+        "score":0,
+        "logo_url":"logos/brobrubru.jpeg",
+        "url":"http://shop.brobrubru.com/",
+        "name":"Brother Bru Bru's",
+        "does_ship":true,
+        "shipping_fee":10,
+        "description":"Brother Bru-Bru's salt-free, gluten-free, organic and all-natural hot pepper sauces"
+  },
+  "39": {
+        "score":0,
+        "logo_url":"logos/iplaybaby.png",
+        "url":"https://iplaybaby.com/green-sprouts/feeding",
+        "name":"Green Sprouts",
+        "does_ship":true,
+        "shipping_fee":8,
+        "free_ship_min":50,
+        "description":"green sprouts Feeding offers products with a range of healthy and safe choices for convenience at affordable prices. green sprouts Burp Pads & Cloths, Bibs, Bottles and Cups, Food Prep and Storage items, Dishes and Utensils, and On the Go items are designed with attention to use the best quality materials available.",
+        "lists":[
+           "moms"
+        ]
+  },
+  "106": {
+        "score":10,
+        "logo_url":"http://logo.clearbit.com/http:/shop.divinechocolateusa.com",
+        "url":"http://shop.divinechocolateusa.com",
+        "name":"Divine",
+        "does_ship":true,
+        "shipping_fee":5.95,
+        "free_ship_min":65,
+        "description":"Divine Chocolate is co-owned by the 85,000 farmer members of Kuapa Kokoo, the cooperative in Ghana that supplies the cocoa for each bar of Divine. As owners, they get a share in the profits, a say in the company, and a voice in the global marketplace.",
+        "coupon":"WELCOME10",
+        "lists":[
+           "baking"
+        ],
+        "products":[
+           "chocolate",
+           "snacks"
+        ],
+        "badges":[
+           "employee_owned"
+        ]
+  },
+  "43": {
+        "score":40,
+        "logo_url":"http://logo.clearbit.com/https://www.preserveproducts.com",
+        "url":"https://www.preserveproducts.com",
+        "name":"Preserve",
+        "does_ship":true,
+        "shipping_fee":4,
+        "free_ship_min":50,
+        "description":"Our mission is to help reduce the harm caused by the industrial age by demonstrating that consumer products can be both fabulous and lighter on the earth.",
+        "products":[
+           "shaving",
+           "tableware"
+        ],
+        "badges":[
+           "bcorp"
+        ]
+  },
+  "96": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/http://www.wellness.com/",
+        "url":"http://www.wellness.com/",
+        "name":"Wellness",
+        "does_ship":true,
+        "shipping_fee":2,
+        "description":"Wellness - Find wellness practitioners, doctors, dentists, senior care and lifestyle tips for living the healthiest and happiest life possible."
+  },
+  "24": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/https://stephenjosephgifts.com/",
+        "url":"https://stephenjosephgifts.com/",
+        "name":"Stephen Joseph",
+        "does_ship":true,
+        "shipping_fee":7,
+        "free_ship_min":65,
+        "description":"Since 1981, Stephen Joseph has been dedicated to creating fun and unique gifts while delivering service to our customers which exceed their expectations!"
+  },
+  "75": {
+        "score":0,
+        "logo_url":"logos/buckbone.png",
+        "url":"https://www.buckboneorganics.com",
+        "name":"Buck Bone",
+        "does_ship":true,
+        "shipping_fee":0,
+        "free_ship_min":0,
+        "description":"Nature's perfect eco-friendly, Top Grade-A Quality Elk Antler Dog Chews that are All Natural, Organic, Gluten Free, and Odorless."
+  },
+  "63": {
+        "score":95,
+        "logo_url":"http://logo.clearbit.com/http://www.kingarthurflour.com/",
+        "url":"http://www.kingarthurflour.com/",
+        "name":"King Arthur Flour Company",
+        "does_ship":true,
+        "shipping_fee":6,
+        "free_ship_min":25,
+        "lists":[
+           "baking"
+        ],
+        "products":[
+           "flour",
+           "chocolate",
+           "appliances",
+           "kitchen tools",
+           "baking mixes"
+        ],
+        "badges":[
+           "bcorp",
+           "employee_owned"
+        ]
+  },
+  "33": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/http://guayaki.com/",
+        "url":"http://guayaki.com/",
+        "name":"Guayaki",
+        "does_ship":true,
+        "shipping_fee":13,
+        "free_ship_min":50,
+        "description":"Guayaki is certified organic, shade grown for potency, vitality, clarity and well-being. Guayaki Yerba Mate is fairly traded in support of local small farmers and indigenous communities in the sub- tropical forests of Paraguay, Argentina and Brazil. Guayaki Yerba Mate is available in loose bulk mate, tea bag mate, mate concentrates, and ready to drink bottled mate. America's best selling Yerba Mate, mate gourds, and bombillas.",
+        "badges":[
+           "bcorp"
+        ]
+  },
+  "36": {
+        "score":95,
+        "logo_url":"http://logo.clearbit.com/http://www.bobsredmill.com/",
+        "url":"http://www.bobsredmill.com/",
+        "name":"Bob's Red Mill",
+        "does_ship":true,
+        "shipping_fee":10,
+        "free_ship_min":50,
+        "lists":[
+           "baking"
+        ],
+        "products":[
+           "grains",
+           "flour"
+        ],
+        "badges":[
+           "employee_owned"
+        ]
+  },
+  "7": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/https://www.sea2table.com",
+        "url":"https://www.sea2table.com",
+        "name":"Sea to Table",
+        "does_ship":true,
+        "shipping_fee":13,
+        "free_ship_min":80,
+        "description":"Order USA wild-caught, sustainable, traceable seafood. With Sea to Table, you can Eat Better Fish and know where your seafood comes from. Learn more today!",
+        "products":[
+           "fish"
+        ],
+        "badges":[
+           "bcorp"
+        ]
+  },
+  "61": {
+        "score":96,
+        "logo_url":"logos/mrsmeyers.png",
+        "url":"http://www.mrsmeyers.com/product/",
+        "name":"Mrs. Meyer's",
+        "does_ship":true,
+        "shipping_fee":7,
+        "free_ship_min":30,
+        "description":"For all cleaning products, Mrs. Meyer's uses powerful, naturally-derived ingredients that are gentle on your home and the earth. Find cleaners, laundry supplies, lotions, and air fresheners in all popular scents.",
+        "lists":[
+           "airbnb"
+        ],
+        "products":[
+           "soap",
+           "cleaning"
+        ]
+  },
+  "62": {
+        "score":5,
+        "logo_url":"http://logo.clearbit.com/https://www.desertessence.com/",
+        "url":"https://www.desertessence.com/",
+        "name":"Desert Essence",
+        "does_ship":true,
+        "shipping_fee":7,
+        "free_ship_min":30,
+        "description":"Desert Essence was founded in 1978 to bring the best of nature?s offerings to personal care regimens everywhere. Our line of naturally-effective hair, body, baby care and dental care products are formulated with only the highest-quality ingredients and processing standards to bring organic, vegan, gluten-free and cruelty-free beauty to the lifestyles of today?s most health-conscious consumers.",
+        "lists":[
+           "moms"
+        ],
+        "products":[
+           "shampoo",
+           "soap"
+        ]
+  },
+  "47": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/http://shop.peeledsnacks.com/",
+        "url":"http://shop.peeledsnacks.com/",
+        "name":"Peeled Snacks",
+        "does_ship":true,
+        "shipping_fee":6,
+        "free_ship_min":49,
+        "description":"Dried Fruit Snacks | Fiber Filled & Gluten Free | Travel Snacks",
+        "badges":[
+           "bcorp"
+        ]
+  },
+  "79": {
+        "score":0,
+        "logo_url":"logos/beanfield.jpeg",
+        "url":"http://www.beanfieldssnacks.com/buynow/",
+        "name":"Beanfields",
+        "does_ship":true,
+        "shipping_fee":6,
+        "description":"We offer the best quality Royal Quinoa and a variety of quinoa based ingredients. Hopper- and saucepan-ready.",
+        "products":[
+           "snacks",
+           "chips"
+        ],
+        "badges":[
+           "bcorp"
+        ]
+  },
+  "6": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/https://www.vitalchoice.com",
+        "url":"https://www.vitalchoice.com",
+        "name":"Vital Choice",
+        "does_ship":true,
+        "shipping_fee":10,
+        "free_ship_min":99,
+        "description":"Wild Salmon | Omega-3 | Wild Seafood | Organic Foods | Vital Choice",
+        "products":[
+           "fish"
+        ],
+        "badges":[
+           "bcorp"
+        ]
+  },
+  "81": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/http://yumbutter.com/",
+        "url":"http://yumbutter.com/",
+        "name":"Yum Butter",
+        "does_ship":true,
+        "shipping_fee":3,
+        "description":"Yumbutter crafts delicious organic almond butter, peanut butter, cashew butter, & sunflower butter in Go-Anywhere pouches. BuyOne|FeedOne.",
+        "lists":[
+           "outdoors"
+        ],
+        "products":[
+           "peanut butter",
+           "almond butter"
+        ],
+        "badges":[
+           "bcorp",
+           "buy1give1"
+        ]
+  },
+  "95": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/http://www.petplay.com",
+        "url":"http://www.petplay.com",
+        "name":"Pet Play",
+        "does_ship":true,
+        "description":"Offer your dog both comfort and style with P.L.A.Y. luxury dog beds. Our beds are durable and washable for convenience.",
+        "lists":[
+           "pets"
+        ]
+  },
+  "15": {
+        "score":92,
+        "logo_url":"http://logo.clearbit.com/http://shop.clifbar.com/",
+        "url":"http://shop.clifbar.com/",
+        "name":"Clif Bar",
+        "does_ship":true,
+        "shipping_fee":7,
+        "free_ship_min":75,
+        "description":"Nutrition for Sustained Energy",
+        "lists":[
+           "airbnb"
+        ],
+        "products":[
+           "snacks",
+           "energy bar"
+        ]
+  },
+  "22": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/https://www.rainbowlight.com/",
+        "url":"https://www.rainbowlight.com/",
+        "name":"Rainbow Light",
+        "does_ship":true,
+        "shipping_fee":8,
+        "free_ship_min":69,
+        "description":"Since 1981 Rainbow Light has been a leader in Food-Based Multivitamins for Men, Woman, Children, Teens, Seniors, and Prenatal Heath",
+        "coupon":"SUMMER21"
+  },
+  "26": {
+        "score":0,
+        "logo_url":"logos/mineral-fusion.png",
+        "url":"https://www.mineralfusion.com/",
+        "name":"Mineral Fusion",
+        "does_ship":true,
+        "shipping_fee":5,
+        "free_ship_min":60,
+        "description":"Mineral Fusion is a company that stands for quality mineral makeup & skin care, quality ingredients, and quality of life."
+  },
+  "94": {
+        "score":0,
+        "logo_url":"logos/nordicnaturals.png",
+        "url":"http://www.nordicnaturals.com",
+        "name":"Nordic Naturals",
+        "does_ship":true,
+        "shipping_fee":7,
+        "description":"More than 150 products in a wide variety of flavors, concentrations, and delivery forms to meet personalized nutritional needs."
+  },
+  "70": {
+        "score":5,
+        "logo_url":"http://logo.clearbit.com/http://mayakaimal-store.com/",
+        "url":"http://mayakaimal-store.com/",
+        "name":"Maya Kaimal",
+        "does_ship":true,
+        "shipping_fee":0,
+        "free_ship_min":0,
+        "description":"Fine Indian Foods",
+        "lists":[
+           "college"
+        ],
+        "products":[
+           "meals",
+           "indian",
+           "sauces"
+        ]
+  },
+  "107": {
+        "score":70,
+        "logo_url":"logos/napa-valley-naturals.gif",
+        "url":"http://www.napavalleynaturals.com/",
+        "name":"Napa Valley Naturals",
+        "does_ship":true,
+        "shipping_fee":5.95,
+        "free_ship_min":65,
+        "description":"At Napa Valley Naturals, we are a small family owned business devoted to brining you delicious Certified Organic and All Natural Extra Virgin Olive Oils, Culinary Cooking Oils, Italian Balsamic Vinegars, and Barrel Aged Artisan Vinegars.",
+        "coupon":"WELCOME10",
+        "lists":[
+           "chefs"
+        ],
+        "products":[
+           "cooking oil"
+        ],
+        "badges":[
+           "organic",
+           "non_gmo"
+        ]
+  },
+  "14": {
+        "score":0,
+        "logo_url":"http://logo.clearbit.com/http://mineralhygienics.com/",
+        "url":"http://mineralhygienics.com/",
+        "name":"Mineral Hygienics",
+        "does_ship":true,
+        "shipping_fee":5,
+        "free_ship_min":75,
+        "description":"100% the Best Mineral Makeup. The preferred choice of Celebrities and Professionals. Click here to KNOW the secret of Hygienics Mineral Makeup!"
+  }
+}

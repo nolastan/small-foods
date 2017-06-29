@@ -27,3 +27,8 @@ p {
   letter-spacing: -0.32px;
   color: #7D7D7D;
 }
+
+strong {
+  color: #555;
+  font-weight: 600;
+}

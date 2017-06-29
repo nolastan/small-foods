@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import Ad from './Ad.js';
+import Reasons from './Reasons.js';
+import fire from './fire';
 
 import {PageTitle, SectionTitle} from './styles/Typography';
 
@@ -30,8 +32,7 @@ const Button = styled.a`
   }
 `
 const BrandInfo = styled.div`
-  // display: flex;
-  display: none;
+  display: flex;
   margin: 4ex 0;
 `
 
@@ -55,13 +56,17 @@ const ProductItem = styled.li`
 
 class Brand extends Component {
 
+
   state = {brand: {}}
 
   loadBrandById(brandId) {
-    // fetch(`/brands?uid=${brandId}`)
-    fetch(`https://guarded-ridge-90726.herokuapp.com/brands?uid=${brandId}`)
-      .then(res => res.json())
-      .then(brand => this.setState({ brand }));
+    var database = fire.database();
+    var _this = this;
+    return database.ref('/' + brandId).once('value').then(function(snapshot) {
+      var brand = snapshot.val();
+      console.log(brand);
+      _this.setState({ brand: brand });
+    });
   }
 
   componentWillMount() {
@@ -87,9 +92,7 @@ class Brand extends Component {
         <BrandInfo>
           <Qualities>
             <SectionTitle>Reasons to love {this.state.brand.name}</SectionTitle>
-            <ul>
-              <li>Free shipping on orders over ${this.state.brand.free_ship_min}</li>
-            </ul>
+            <Reasons brand={this.state.brand} />
           </Qualities>
           <Products>
             <SectionTitle>Products</SectionTitle>

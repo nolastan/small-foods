@@ -47,7 +47,7 @@ class App extends Component {
               apiKey="8af649249ad11a64f1d74c5321223af4"
               indexName="brands"
             >
-              <Search />
+              <Search query="soap" />
               <Configure hitsPerPage={500} />
             </InstantSearch>
           </main>
