@@ -34,6 +34,9 @@ const Button = styled.a`
 const BrandInfo = styled.div`
   display: flex;
   margin: 4ex 0;
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
 `
 
 const Qualities = styled.div`

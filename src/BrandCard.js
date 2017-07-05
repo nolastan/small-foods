@@ -7,6 +7,8 @@ import {InstantSearch, Hits, SearchBox, Highlight}
 
 const Card = styled(Link)`
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 
   width: 100%;
   min-height: 96px;
@@ -65,11 +67,23 @@ const Products = styled.p`
 const Shipping = styled.div`
   display: flex;
   text-transform: uppercase;
+  @media (max-width: 500px) {
+    flex-basis: 100%;
+    border-top: 1px solid #eee;
+    padding-top: 1ex;
+    margin-top: 1ex;
+    text-align: center;
+    display: block;
+  }
+
 `;
 
   const Amount = styled.dl`
     text-align: center;
     margin: 0 12px;
+    @media (max-width: 500px) {
+      display: inline-block;
+    }
   `;
 
     const Value = styled.dd`
