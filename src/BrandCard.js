@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Badges from './Badges'
 import styled from 'styled-components';
-import {Link, Route} from 'react-router-dom'
-import {InstantSearch, Hits, SearchBox, Highlight}
-  from 'react-instantsearch/dom';
+import {Link} from 'react-router-dom'
+import {Highlight} from 'react-instantsearch/dom';
 
 const Card = styled(Link)`
   display: flex;
@@ -111,7 +110,7 @@ class BrandCard extends React.Component {
 
   shippingFee() {
     if(this.props.brand.shipping_fee) {
-      var amount = this.props.brand.shipping_fee == 0 ? "Free" : "$" + this.props.brand.shipping_fee
+      var amount = this.props.brand.shipping_fee === 0 ? "Free" : "$" + this.props.brand.shipping_fee
       return (
         <Amount>
           <Value>{amount}</Value>

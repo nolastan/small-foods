@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
-import {Link, Route} from 'react-router-dom'
+import {Route} from 'react-router-dom'
 import './App.css';
 import Brand from './Brand';
 import Article from './Article';
 import Header from './Header';
 import BrandCard from './BrandCard';
-import styled from 'styled-components';
 
 import {PageTitle} from './styles/Typography';
 
-import {InstantSearch, Hits, SearchBox, Highlight, RefinementList,
+import {InstantSearch, Hits, SearchBox, RefinementList,
   CurrentRefinements, PoweredBy, Configure}
   from 'react-instantsearch/dom';
 

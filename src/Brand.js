@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import Ad from './Ad.js';
 import Reasons from './Reasons.js';
-import fire from './fire';
 
 import {PageTitle, SectionTitle} from './styles/Typography';
 
@@ -63,15 +62,11 @@ class Brand extends Component {
   state = {brand: {}}
 
   loadBrandById(brandId) {
-    var database = fire.database();
-    var _this = this;
-    return database.ref('/' + brandId).once('value').then(function(snapshot) {
-      var brand = snapshot.val();
-      console.log(brand);
-      _this.setState({ brand: brand });
-    });
+    // fetch(`/brands?uid=${brandId}`)
+    fetch(`http://localhost:3001/brands/${brandId}.json`)
+      .then(res => res.json())
+      .then(brand => this.setState({ brand }));
   }
-
   componentWillMount() {
     this.loadBrandById(this.props.match.params.brandId)
   }
@@ -95,13 +90,17 @@ class Brand extends Component {
         <BrandInfo>
           <Qualities>
             <SectionTitle>Reasons to love {this.state.brand.name}</SectionTitle>
-            <Reasons brand={this.state.brand} />
+            {this.state.brand.classifications && this.state.brand.classifications.map(c =>
+              <p key={c.id}>{c.image_url} <strong>{c.name}</strong><br />
+                {c.description}
+              </p>
+            )}
           </Qualities>
           <Products>
             <SectionTitle>Products</SectionTitle>
             <ul>
               {this.state.brand.products && this.state.brand.products.map(p =>
-                <ProductItem key={p}>{p}</ProductItem>
+                <ProductItem key={p.id}>{p.name}</ProductItem>
               )}
             </ul>
           </Products>
