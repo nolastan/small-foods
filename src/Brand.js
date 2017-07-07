@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import Ad from './Ad.js';
-import Reasons from './Reasons.js';
 
 import {PageTitle, SectionTitle} from './styles/Typography';
 
@@ -77,6 +76,15 @@ class Brand extends Component {
     }
   }
 
+  freeShipReason(free_ship_min) {
+    if(free_ship_min) {
+      return(
+        <p>🚚 <strong>Free Delivery</strong>
+        <br />All orders over ${free_ship_min} ship free.</p>
+      )
+    }
+  }
+
   render() {
     return (
       <main>
@@ -95,6 +103,7 @@ class Brand extends Component {
                 {c.description}
               </p>
             )}
+            {this.freeShipReason(this.state.brand.free_ship_min)}
           </Qualities>
           <Products>
             <SectionTitle>Products</SectionTitle>
