@@ -63,7 +63,7 @@ class Brand extends Component {
 
   loadBrandById(brandId) {
     // fetch(`/brands?uid=${brandId}`)
-    fetch(`http://localhost:3001/brands/${brandId}.json`)
+    fetch(`http://trykangaroo.herokuapp.com/brands/${brandId}.json`)
       .then(res => res.json())
       .then(brand => this.setState({ brand }));
   }
