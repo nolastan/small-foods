@@ -80,7 +80,7 @@ class Brand extends Component {
     if(free_ship_min) {
       return(
         <p>🚚 <strong>Free Delivery</strong>
-        <br />All orders over ${free_ship_min} ship free.</p>
+        <br />All orders over ${free_ship_min/100} ship free.</p>
       )
     }
   }
