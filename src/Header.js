@@ -23,7 +23,7 @@ const HomeLink = styled(Link)`
 const Why = styled.a`
   text-align: right;
   line-height: 48px;
-  margin-right: 12px;
+  margin-right: 16px;
 `
 
 const AppTitle = styled.h1`
@@ -47,7 +47,8 @@ class Header extends Component {
           <AppLogo>♥</AppLogo>
           <AppTitle>Kangaroo</AppTitle>
         </HomeLink>
-        <Why href="https://medium.com/@stan/how-to-order-whole-foods-online-today-b1bfe3e16720">Why?</Why>
+        <Why href="http://eepurl.com/cVC04b">Join</Why>
+        <Why href="https://medium.com/@stan/how-to-order-whole-foods-online-today-b1bfe3e16720">Learn more</Why>
       </AppHeader>
     );
   }
