@@ -92,7 +92,7 @@ class Brand extends Component {
           <img width="150" src={this.state.brand.logo_url} alt={this.state.brand.name + " logo"} />
           <PageTitle>Order {this.state.brand.name} online</PageTitle>
           <BrandDescription>{this.state.brand.description}</BrandDescription>
-          <Button target="_blank" href={this.state.brand.url}>Shop Now</Button>
+          <Button target="_blank" href={this.state.brand.affiliate_url || this.state.brand.url}>Shop Now</Button>
         </Hero>
 
         <BrandInfo>
