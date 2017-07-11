@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Helmet} from 'react-helmet';
 import styled from 'styled-components';
 import Ad from './Ad.js';
 
@@ -88,6 +89,15 @@ class Brand extends Component {
   render() {
     return (
       <main>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>{this.state.brand.name + " – Kangaroo"}</title>
+          <meta property="og:title" content="Order {this.state.brand.name} online" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="" />
+          <meta property="og:image" content={this.state.brand.logo_url} />
+          <meta property="og:description" content={this.state.brand.description} />
+        </Helmet>
         <Hero>
           <img width="150" src={this.state.brand.logo_url} alt={this.state.brand.name + " logo"} />
           <PageTitle>Order {this.state.brand.name} online</PageTitle>
